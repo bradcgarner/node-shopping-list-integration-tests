@@ -216,7 +216,3 @@ describe('Recipes', function() {
   });
   
 });
-<<<<<<< HEAD
-  
-=======
->>>>>>> 7ccc8cf42ac66bb6bf38a812831ef133a780929d
