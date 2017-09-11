@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ci09m1g17ZuhycYiWi4DsY2aDN6xNA5CJYcD+75JzJUTwUztUWByR4gtCIVK+DGXeVKEPfMbCIZG8XDylLqvDTW+EtRdX0nCycBOwk45wyTjKkvk0p6YXUzwWfbH9Lmo4ShmPuuhVA3bWGmE91tsUBVBd9qZSqX5nwyzXsl180x79op8QxCupTE2Y9XAVNfAwFxnIZJ3wAT//iNOdMLiEsYFUuQrL0HNAfM0oASSZORXoo12MNVNF6qDSWOw2b5HJVwu8vBj7cDGOQwP9q5e8ijU99znElPppud8nv6lWDeShb+Euuce6d2C3Ylf0YJOuipHBaGrZvZwpiXcnfCkaAv5EdTEfPw12Sq+aY8bvzJnEsB+KZojhvjhxcU97iCbCVo4CPKXpvLcyejxyTkcwVZEMxjYJCp3WgDA5k/YEnssBob0PalOUQyTI9J56G2o1YrPi81ORCC3LKZnfwVhXcPa6FnuztmdsWa71BzyvB0TmU3ykzaZeQkhkXTes+GiijlqQATfU3pwQIIrg8qP70rc1tkuFpmNT0Z0wG7Z8PT/d3GtTHzDi3kHGZWf/5fXXKAjg4UfTHhYwowZ2LSiRTqBjy4/jLrdAStl/GAFOf0MSDJKZGfm07ma25X5yWvaMhKipWWQ2wdyQW4XcK7xJXrR+tFqJXuGKg1aPWlvoE4=
+  app: https://young-shelf-41686.herokuapp.com/
+  on:
+    repo: bradcgarner/node-shopping-list-integration-tests
+    branch: tests-for-recipes
